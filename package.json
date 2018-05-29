@@ -1,0 +1,27 @@
+{
+  "name": "algorithminjs",
+  "version": "1.0.0",
+  "description": "algorithm writen in Javascript.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha 'src/**/*.test.js' --watch --globals 'tree'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temberature/algorithmInJS.git"
+  },
+  "author": "Tong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temberature/algorithmInJS/issues"
+  },
+  "homepage": "https://github.com/temberature/algorithmInJS#readme"
+}
